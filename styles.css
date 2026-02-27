@@ -1,0 +1,155 @@
+* {
+    font-family: Helveitca, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 69px;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: underline;
+}
+
+.mission {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    color: seashell;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.month {
+    background-color: black;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 50px;
+}
+
+.tea-cards {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url("images/img-locations-background.jpg");
+    gap: 15px;
+    color: seashell;
+    background-color: black;
+}
+
+.location-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.location-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    color: seashell;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+    color: seashell;
+    padding: 0 0 20px 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: seashell;
+    gap: 20px;
+    height: 200px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
